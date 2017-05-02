@@ -9,7 +9,7 @@ html
       meta(name="viewport" content="width=device-width, initial-scale=1")
 
     block(name='title')
-      title Posts That Need Love
+      title 2-Ulna-A Posts
 
     block(name='stylesheets')
       link(rel='stylesheet' href='css/index.css')
