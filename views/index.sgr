@@ -5,43 +5,33 @@ extends(src='layout.sgr')
     each(loop='post of libby.items')
       p
         a(href='{{ post.link }}') {{ post.title }}
-        |
-        | -
-        |
+        br
         span.disqus-comment-count(data-disqus-url='{{ post.link }}')
     br
     h2 Cheryl
     each(loop='post of cheryl.items')
       p
         a(href='{{ post.link }}') {{ post.title }}
-        |
-        | -
-        |
+        br
         span.disqus-comment-count(data-disqus-url='{{ post.link }}')
     br
     h2 Sam
     each(loop='post of sam.items')
       p
         a(href='{{ post.link }}') {{ post.title }}
-        |
-        | -
-        |
+        br
         span.disqus-comment-count(data-disqus-url='{{ post.link }}')
     br
     h2 Jim
     each(loop='post of jim.items')
       p
         a(href='{{ post.link }}') {{ post.title }}
-        |
-        | -
-        |
+        br
         span.disqus-comment-count(data-disqus-url='{{ post.link }}')
     br
     h2 Covington
     each(loop='post of covington.items')
       p
         a(href='{{ post.link }}') {{ post.title }}
-        |
-        | -
-        |
+        br
         span.disqus-comment-count(data-disqus-url='{{ post.link }}')
