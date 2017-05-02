@@ -1,0 +1,33 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h1 2-Ulna-A Posts
+    h2 Libby
+    each(loop='post of libby.items')
+      h3
+        a(href='{{ post.link }}') {{ post.title }}
+        span -
+        span.disqus-comment-count(data-disqus-url='{{ post.link }}')
+    h2 Cheryl
+    each(loop='post of cheryl.items')
+      h3
+        a(href='{{ post.link }}') {{ post.title }}
+        span -
+        span.disqus-comment-count(data-disqus-url='{{ post.link }}')
+    h2 Sam
+    each(loop='post of sam.items')
+      h3
+        a(href='{{ post.link }}') {{ post.title }}
+        span -
+        span.disqus-comment-count(data-disqus-url='{{ post.link }}')
+    h2 Jim
+    each(loop='post of jim.items')
+      h3
+        a(href='{{ post.link }}') {{ post.title }}
+        span -
+        span.disqus-comment-count(data-disqus-url='{{ post.link }}')
+    h2 Covington
+    each(loop='post of covington.items')
+      h3
+        a(href='{{ post.link }}') {{ post.title }}
+        span -
+        span.disqus-comment-count(data-disqus-url='{{ post.link }}')
